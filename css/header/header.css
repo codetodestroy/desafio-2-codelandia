@@ -1,0 +1,46 @@
+.header {
+    width: 100vw;
+    height: 350px;
+    
+    background: linear-gradient(rgba(18, 18, 20, 0.75), rgba(18, 18, 20, 0.75)), url('../../img/jordan.png') no-repeat center top;
+    background-size: 195% 115%;
+
+    padding: 91px 24px;
+
+    font-family: Archivo, sans-serif;
+    color: var(--color-white1);
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header .logo img[alt="Logomarca"] {
+    width: 24px;
+    height: 24;
+}
+
+.header .logo a {
+    color: var(--color-white1);
+    text-decoration: none;
+}
+
+.header .logo a h1 {
+
+    font-size: 1.125rem;
+    line-height: 19.58px;
+}
+
+.header h2 {
+    padding-top: 40px;
+    font-size: 1.5rem;
+    line-height: 26.11px;
+}
+
+.header p {
+    padding-top: 12px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
