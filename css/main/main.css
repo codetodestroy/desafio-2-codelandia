@@ -1,0 +1,67 @@
+main {
+    padding: 58px 32px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-header {
+    font-family: Archivo, sans-serif;
+    color: var(--color-dark);
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    align-items: center;
+}
+
+.main-header h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 21.76px;
+}
+
+.main-header p {
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 19.6px;
+    text-align: center;
+}
+
+.card-shoes {
+    font-family: Archivo, sans-serif;
+    display: ;
+}
+
+.card-shoes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-shoes .bg-shoes {
+    padding: 32px 47px;
+    background-color: var(--color-bg-card);
+    text-align: center;
+}
+
+.header-shoes h4 {
+    font-size: 1rem;
+    line-height: 20.8px;
+    margin-bottom: 12px;
+}
+
+.header-shoes .tag-shoes {
+    font-size: 1rem;
+    line-height: 17.41px;
+    color: var(--color-tag);
+}
+
+.card-shoes .price-shoes {
+    font-family: 'Space Grotesk', monospace;
+    font-size: 1.25rem;
+    line-height: 25.52px;
+    color: var(--color-dark);
+}
