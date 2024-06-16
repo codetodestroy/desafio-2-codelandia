@@ -31,11 +31,6 @@ main {
 }
 
 .card-shoes {
-    font-family: Archivo, sans-serif;
-    display: ;
-}
-
-.card-shoes {
     display: flex;
     flex-direction: column;
     gap: 24px;
