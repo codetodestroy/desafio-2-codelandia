@@ -1,4 +1,6 @@
 main {
+    width: 375px;
+    margin: 0 auto;
     padding: 58px 32px;
 
     display: flex;
@@ -31,6 +33,8 @@ main {
 }
 
 .card-shoes {
+    width: 319px;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 24px;
