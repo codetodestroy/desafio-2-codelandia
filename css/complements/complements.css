@@ -1,0 +1,15 @@
+.about-freight {
+    background-color: var(--color-bg-card);
+    padding: 12px 95px;
+    width: 100vw;
+    height: 39px; /* ou auto */
+}
+
+.about-freight p {
+    font-family: Archivo, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 15.23px;
+    text-align: center;
+    color: var(--color-dark);
+}
