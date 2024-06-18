@@ -1,7 +1,8 @@
 :root {
-    --color-white1: #FFFFFF;
-    --color-white2: #F3F7FF;
-    --color-dark: #121214;
-    --color-bg-card: #F3F7FF;
-    --color-tag: #7CA2F4;
-}
+    --brand-color: #7ca2f4;
+  
+    --dark: #121214;
+  
+    --gray: #f3f7ff;
+    --white: #ffffff;
+  }

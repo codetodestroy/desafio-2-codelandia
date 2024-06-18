@@ -1,22 +1,25 @@
 main {
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 58px 32px;
-
+    background-color: var(--white);
     display: flex;
     flex-direction: column;
     gap: 40px;
+
+    position: relative;
+    top: -39px;
+    z-index: 2;
 }
 
 .main-header {
+    padding: 58px 24px 0px;
     font-family: Archivo, sans-serif;
-    color: var(--color-dark);
+    color: var(--dark);
+    text-align: center;
 
     display: flex;
     flex-direction: column;
-    gap: 12px;
-
+    justify-content: center;
     align-items: center;
+    gap: 12px;
 }
 
 .main-header h3 {
@@ -26,40 +29,91 @@ main {
 }
 
 .main-header p {
+    font-size: 0.875rem;
     font-weight: 400;
-    font-size: 0.7rem;
     line-height: 19.6px;
-    text-align: center;
+}
+
+.main-content {
+    padding: 0px 24px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
 }
 
 .card-shoes {
-    max-width: 319px;
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.card-shoes .bg-shoes {
+.bg-shoes {
     padding: 32px 47px;
-    background-color: var(--color-bg-card);
-    text-align: center;
+    background-color: var(--gray);
+}
+
+.bg-shoes img {
+    margin: 0 auto;
+}
+
+.header-shoes {
+    font-family: Archivo, sans-serif;
 }
 
 .header-shoes h4 {
+    font-weight: 500;
     font-size: 1rem;
     line-height: 20.8px;
-    margin-bottom: 12px;
 }
 
 .header-shoes .tag-shoes {
+    margin-top: 12px;
+    font-weight: 500;
     font-size: 1rem;
-    line-height: 17.41px;
-    color: var(--color-tag);
+    line-height: 20.8px;
+    color: var(--brand-color);
 }
 
-.card-shoes .price-shoes {
+.price-shoes {
     font-family: 'Space Grotesk', monospace;
+    font-weight: 500;
     font-size: 1.25rem;
     line-height: 25.52px;
-    color: var(--color-dark);
+}
+
+@media (min-width: 768px) {
+    .main-header {
+        padding: 56px 124px 0px;
+    }
+
+    .main-header h3 {
+        font-size: 1.5rem;
+        line-height: 26.11px;
+    }
+
+    .main-header p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 22.4px;
+    }
+
+    .main-content {
+        padding: 0px 32px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 63px 32px;
+    }
+    
+    .bg-shoes {
+        padding: 32px 55px;
+    }
+    
+    .header-shoes h4 {
+        font-size: 1.125rem;
+        line-height: 23.4px;
+    }
+    
+    .header-shoes .tag-shoes {
+        line-height: 17.41px;
+    }
+
 }
